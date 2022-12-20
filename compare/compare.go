@@ -10,3 +10,7 @@ func Compare[N Ordered](a, b N) int {
 		return 0
 	}
 }
+
+func Equal[N comparable](a, b N) bool {
+	return a == b
+}
